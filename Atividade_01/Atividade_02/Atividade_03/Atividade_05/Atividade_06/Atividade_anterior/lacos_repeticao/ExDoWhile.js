@@ -7,7 +7,7 @@ do {
   console.log("🎮 Você está jogando!");
 
   // Pergunta se quer continuar 
-  querContinuar = readline.question("Quer continuar jogando pagando R$500,00? (S) para pagar / qualquer outra tecla para sair ): ").toLowerCase();
+  querContinuar = readline.question("Quer continuar jogando pagando R$500,00? ( para pagar / qualquer outra tecla para sair ): ").toLowerCase();
 
   if (querContinuar === "s") {
     console.log("💸 Pagamento feito. Continuando o jogo...");
