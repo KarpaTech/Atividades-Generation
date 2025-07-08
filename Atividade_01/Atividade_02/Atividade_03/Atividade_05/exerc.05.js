@@ -18,32 +18,32 @@ let total;
 switch (opcaoCardapio){
 case 1:
     preco = 10.00;
-    total = quantidade + preco;
+    total = quantidade * preco;
     console.log(`\nProduto: Hot Dog\nquantidade: ${quantidade}\n total: R$${total.toFixed(2)}`);
     break;
 case 2:
     preco = 18.00;
-    total = quantidade + preco;
+    total = quantidade * preco;
     console.log(`\nProduto: X-Bacon\nquantidade: ${quantidade}\n total: R$${total.toFixed(2)}`);
     break;
 case 3:
     preco = 15.00;
-    total = quantidade + preco;
+    total = quantidade * preco;
     console.log(`\nProduto: X-Salada\nquantidade: ${quantidade}\n total: R$${total.toFixed(2)}`);
     break;
 case 4:
     preco = 12.00;
-    total = quantidade + preco;
+    total = quantidade * preco;
     console.log(`\nProduto: Bauru\nquantidade: ${quantidade}\n total: R$${total.toFixed(2)}`);
     break;
 case 5:
     preco = 8.00;
-    total = quantidade + preco;
+    total = quantidade * preco;
     console.log(`\nProduto: Pepsi\nquantidade: ${quantidade}\n total: R$${total.toFixed(2)}`);
     break;
 case 6:
     preco = 13.00;
-    total = quantidade + preco;
-    console.log(`\nProduto: Hot Dog\nquantidade: ${quantidade}\n total: R$${total.toFixed(2)}`);
+    total = quantidade * preco;
+    console.log(`\nProduto: Suco de laranja \nquantidade: ${quantidade}\n total: R$${total.toFixed(2)}`);
     break;
 }
